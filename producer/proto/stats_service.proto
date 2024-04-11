@@ -1,0 +1,13 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+
+option go_package = "./proto";
+
+service StatsService {
+    rpc FetchStats(google.protobuf.Empty) returns (stream StatsResponse);
+}
+
+message StatsResponse {
+    string memTag = 1;
+    optional int32 bandwidth = 2;
+}
