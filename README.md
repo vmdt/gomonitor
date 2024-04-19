@@ -14,7 +14,7 @@ Command builds, starts, attaches to containers for Kafka and Zookeeper
 ### Run services
 Before running project, keeping in mind you installed make package on your machine.
 
-Using this command for each service to run
+Using this command for running each service
 ```bash
   make run  
 ```
