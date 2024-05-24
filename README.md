@@ -7,7 +7,7 @@ Gomonitor is simple realtime performance monitoring system like RAM, CPU usage. 
 
 ### Kafka setup
 ```bash
-  docker-compose -d up  
+  docker-compose up -d  
 ```
 Command builds, starts, attaches to containers for Kafka and Zookeeper
 
